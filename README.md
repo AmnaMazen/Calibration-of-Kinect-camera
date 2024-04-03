@@ -30,21 +30,27 @@ kinect2 sensor. Ideally, the tripod for the kinect2 will have a ball head, which
 2. create a directory for your calibration data files, for example "kinect_cal_data"
     
 $ mkdir ~/kinect_cal_data
+
 $ cd ~/kinect_cal_data
 
-5. Record images for the color camera:
-. Click the image window and push s button to save the
-    
-        current image for calibration.
-rosrun kinect2_calibration kinect2_calibration
-   chess7x9x0.025 record color
+3.  Record images for the color camera:
+
+$ rosrun kinect2_calibration kinect2_calibration chess7x9x0.025 record color
+
+ Click the image window and push the "s" button to save the current image for calibration.
  
-7. Calibrate the intrinsics:
-8. Record images for the ir camera:
+4. Calibrate the intrinsics:
+
+$ rosrun kinect2_calibration kinect2_calibration chess7x9x0.025 calibrate color
+   
+5. Record images for the IR camera:
+
+$ rosrun kinect2_calibration kinect2_calibration chess7x9x0.025 record ir
+   
 9. Calibrate the intrinsics of the ir camera:
 10. Record images on both cameras synchronized: 8. Calibrate the extrinsics:
-   rosrun kinect2_calibration kinect2_calibration chess7x9x0.025 calibrate color
-   rosrun kinect2_calibration kinect2_calibration chess7x9x0.025 record ir
+   
+   
     rosrun kinect2_calibration
  
 kinect2_calibration chess7x9x0.025 calibrate ir
