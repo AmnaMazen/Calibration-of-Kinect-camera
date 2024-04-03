@@ -43,7 +43,7 @@ $ rosrun kinect2_calibration kinect2_calibration chess7x9x0.025 record color
 
 $ rosrun kinect2_calibration kinect2_calibration chess7x9x0.025 calibrate color
 
-This create a file called "calib_color.yaml"
+This creates a file called "calib_color.yaml"
    
 5. Record images for the IR camera:
 
@@ -53,7 +53,7 @@ $ rosrun kinect2_calibration kinect2_calibration chess7x9x0.025 record ir
    
 $ rosrun kinect2_calibration kinect2_calibration chess7x9x0.025 calibrate ir
 
-This create a file called "calib_ir.yaml"
+This creates a file called "calib_ir.yaml"
    
 7. Record images on both cameras synchronized:
 
@@ -63,13 +63,13 @@ $ rosrun kinect2_calibration kinect2_calibration chess7x9x0.025 record sync
    
 $ rosrun kinect2_calibration kinect2_calibration chess7x9x0.025 calibrate sync
 
-This create a file called "calib_pose.yaml"
+This creates a file called "calib_pose.yaml"
 
 9.  Calibrate the depth measurements:
     
 $ rosrun kinect2_calibration kinect2_calibration chess7x9x0.025 calibrate depth
 
-This create a file called "calib_depth.yaml"
+This creates a file called "calib_depth.yaml"
  
 10. Find out the serial number of your kinect2 by looking at the first lines printed out by the kinect2_bridge. The line looks like this: device serial: 008716665247.
 
@@ -81,6 +81,6 @@ $ mkdir 008716665247
 
 12. Copy the following files from your calibration directory (~/kinect_cal_data) into the directory you just created:
     
-    calib_color.yaml  calib_depth.yaml  calib_ir.yaml and calib_pose.yaml
+    calib_color.yaml,  calib_depth.yaml,  calib_ir.yaml, and calib_pose.yaml
     
 13. Restart the kinect2_bridge and be amazed at the better data.
