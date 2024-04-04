@@ -10,7 +10,7 @@ https://github.com/code-iai/iai_kinect2/tree/master/kinect2_calibration#calibrat
 Before calibration image:
 
 <div align="center">
-   <img src="https://github.com/AmnaMazen/Calibration-of-Kinect-camera/blob/main/before.jpg" width="300" height="300">
+   <img src="https://github.com/AmnaMazen/Calibration-of-Kinect-camera/blob/main/before.jpg" width="400" height="400">
 </div>
 
 
@@ -98,7 +98,7 @@ $ mkdir 008716665247
 After calibration image:
 
 <div align="center">
-   <img src="https://github.com/AmnaMazen/Calibration-of-Kinect-camera/blob/main/after.jpg" width="300" height="300">
+   <img src="https://github.com/AmnaMazen/Calibration-of-Kinect-camera/blob/main/after.jpg" width="400" height="400">
 </div>
 
 
