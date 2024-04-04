@@ -7,6 +7,14 @@ We followed this GitHub repository while implementing some changes
 
 https://github.com/code-iai/iai_kinect2/tree/master/kinect2_calibration#calibrating-the-kinect-one
 
+Before calibration image:
+
+<div align="center">
+   <img src="https://github.com/AmnaMazen/Calibration-of-Kinect-camera/blob/main/before.jpg" width="300" height="300">
+</div>
+
+
+
 
 ## Recommended preparation:
 
@@ -86,3 +94,11 @@ $ mkdir 008716665247
     calib_color.yaml,  calib_depth.yaml,  calib_ir.yaml, and calib_pose.yaml
     
 13. Restart the kinect2_bridge and be amazed at the better data.
+
+After calibration image:
+
+<div align="center">
+   <img src="https://github.com/AmnaMazen/Calibration-of-Kinect-camera/blob/main/after.jpg" width="300" height="300">
+</div>
+
+
