@@ -1,6 +1,8 @@
 # Calibration-of-Kinect-camera
 This repository includes a step-by-step tutorial to calibrate the Kinect camera
 
+This work is done with the help of my students, Chenghao Lin and Naian Tao.
+
 We followed this GitHub repository while implementing some changes
 
 https://github.com/code-iai/iai_kinect2/tree/master/kinect2_calibration#calibrating-the-kinect-one
